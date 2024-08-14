@@ -31,6 +31,16 @@ export default function PaymentSuccess() {
       ) : (
         <p>Cargando detalles...</p>
       )}
+                <div>
+          <a href="/">
+        VOLVER
+          <p>
+            rtkmbgror,pe
+          </p>
+          </a>
+        </div>
     </div>
+
+    
   );
 }
