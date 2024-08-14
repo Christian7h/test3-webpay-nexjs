@@ -4,7 +4,7 @@ import { useState } from 'react';
 export default function PaymentPage() {
   const [amount, setAmount] = useState('');
   const [response, setResponse] = useState(null);
-
+  
   const handleSubmit = async (e) => {
     e.preventDefault();
 
