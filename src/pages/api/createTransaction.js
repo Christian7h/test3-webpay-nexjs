@@ -12,7 +12,8 @@ export default async function handler(req, res) {
         Environment.Integration
       ));
       const response = await tx.create(buyOrder, sessionId, amount, returnUrl);
-
+      
+      console.log(response)
       res.status(200).json({
         token: response.token,
         url: response.url
